@@ -1,0 +1,2 @@
+.idea/   # To ignore any unwanted folders, for example
+__pycache__/   # Ignore Python cache files
