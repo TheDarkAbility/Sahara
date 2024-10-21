@@ -55,11 +55,27 @@ section {
 }
 
 /* Profile section styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center the entire content of the body */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;  /* Ensure the header takes full width */
+    display: flex;
+    justify-content: center;  /* Center the header content */
+}
+
 .profile-container {
     display: flex;
-    align-items: center;   /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    margin-bottom: 20px;
+    align-items: center;  /* Center items vertically */
+    justify-content: center;  /* Center items horizontally */
+    text-align: center;  /* Center text within the header text */
+    margin-bottom: 20px;  /* Space below the profile container */
 }
 
 .profile-pic {
@@ -73,6 +89,7 @@ section {
 
 .header-text {
     text-align: center;  /* Center the text */
+    flex: 1;  /* Allow the header text to grow and fill space */
 }
 
 .header-text h1 {
