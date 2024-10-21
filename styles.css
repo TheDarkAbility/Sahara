@@ -46,13 +46,16 @@ nav ul li a:hover {
 }
 
 section {
-    margin: 20px 0;
+    width: 100%; /* Ensure sections take the full width */
+    max-width: 800px; /* Optional: Set a maximum width for better readability */
+    margin: 20px auto; /* Center the section with auto margin */
     padding: 10px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;  /* Ensuring text is left-aligned by default */
+    text-align: left; /* Keep text aligned to the left */
 }
+
 
 .profile-container {
     display: flex;
