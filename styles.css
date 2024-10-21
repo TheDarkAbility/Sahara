@@ -3,13 +3,18 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center the entire content of the body */
 }
 
 header {
-    background: #333;
-    color: #fff;
+    width: 100%;  /* Ensure the header takes full width */
+    display: flex;
+    justify-content: center;  /* Center the header content */
+    background: #333; /* Header background */
+    color: #fff; /* Text color */
     padding: 10px 0;
-    text-align: center;
 }
 
 nav {
@@ -46,28 +51,7 @@ section {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-
-/* Profile section styling */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  /* Center the entire content of the body */
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-header {
-    width: 100%;  /* Ensure the header takes full width */
-    display: flex;
-    justify-content: center;  /* Center the header content */
+    text-align: left;  /* Ensuring text is left-aligned by default */
 }
 
 .profile-container {
@@ -102,7 +86,6 @@ header {
     color: #555;
 }
 
-
 /* Button styles */
 .button-container {
     text-align: center;
@@ -130,7 +113,3 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
-
-    font-size: 0.9em;
-}
-
