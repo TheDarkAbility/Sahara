@@ -101,12 +101,14 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for scaling */
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #555; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
 }
+
 
 footer {
     text-align: center;
