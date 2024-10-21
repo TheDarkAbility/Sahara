@@ -73,7 +73,6 @@ section {
     text-align: left; /* Keep text aligned to the left */
 }
 
-
 .profile-container {
     display: flex;
     align-items: center;  /* Center items vertically */
@@ -106,6 +105,14 @@ section {
     color: #555;
 }
 
+/* Subtitle styles */
+.subtitle {
+    font-size: 1.2em; /* Adjust the size as needed */
+    color: #666;      /* A softer color than the main title */
+    margin-top: 5px; /* Space between the title and the subtitle */
+    text-align: center; /* Center align, if desired */
+}
+
 /* Button styles */
 .button-container {
     text-align: center;
@@ -129,9 +136,9 @@ button:hover {
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 
-
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
 }
+
