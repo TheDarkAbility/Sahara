@@ -41,8 +41,25 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* This is for links when hovered */
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Keep existing hover effect for text links */
+}
+
+/* Add these new styles for the buttons */
+nav ul li button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li button:hover {
+    background-color: #555; /* Hover effect for buttons */
 }
 
 section {
